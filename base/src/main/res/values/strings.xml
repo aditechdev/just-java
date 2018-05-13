@@ -1,5 +1,4 @@
 <resources>
-
     <string name="app_name">Just java</string>
     <string name="quantity" translatable="false">Quantity</string>
     <string name="quantity_number">2</string>
@@ -12,14 +11,11 @@
     <string name="whipped_cream" translatable="false">Whipped Cream</string>
     <string name="chocolate" translatable="false">Chocolate</string>
 
-
     <string name="quantity_summary">Quantity: </string>
     <string name="chocolate_summary">Has  chocolate? </string>
     <string name="whipped_cream_summary">Has Whipped Cream? </string>
     <string name="thanks">Thank you!</string>
     <string name="customer_name">Name:</string>
-    <string name="total">Total: ₹ </string>
-
-
+    <string name="total">Total:₹ </string>
 
 </resources>

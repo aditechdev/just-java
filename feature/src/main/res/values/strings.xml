@@ -1,1 +1,7 @@
-<resources></resources>
+<resources>
+    <string name="customer_name">Name:</string>
+    <string name="chocolate_summary">Has  chocolate? </string>
+    <string name="thanks">Thank you!</string>
+    <string name="whipped_cream_summary">Has Whipped Cream? </string>
+    <string name="quantity_summary">Quantity: </string>
+</resources>

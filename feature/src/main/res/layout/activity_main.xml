@@ -3,12 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/coffeedesignvector"
+    android:layout_weight="1"
+    android:alpha="1"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginEnd="@dimen/page_margin"
         android:layout_marginStart="@dimen/page_margin"
         android:orientation="vertical">
@@ -29,6 +32,7 @@
 
         <CheckBox
             android:id="@+id/has_whipped_cream"
+            android:buttonTint="@color/colorAccent"
             style="@style/TextTheme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,6 +45,7 @@
         <CheckBox
             android:id="@+id/has_chocolate"
             style="@style/TextTheme"
+            android:buttonTint="@color/colorAccent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/checkbox_padding"
@@ -68,7 +73,7 @@
                 android:focusable="true"
                 android:onClick="decrement"
                 android:text="@string/minus"
-                android:textColor="@color/colorPrimaryDark" />
+                android:textColor="@color/colorPrimaryDark"/>
 
             <TextView
                 android:id="@+id/quantity_text_view"
@@ -77,8 +82,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/page_margin"
                 android:layout_marginRight="@dimen/page_margin"
-                android:text="@string/quantity_number"
-                android:textColor="@color/colorPrimaryDark" />
+                android:text="@string/quantity_number" />
 
             <Button
                 style="@style/TextTheme"
@@ -100,6 +104,7 @@
             android:clickable="true"
             android:focusable="true"
             android:onClick="submitOrder"
+            android:background="@color/textColor"
             android:text="@string/order"
             android:textColor="@color/colorPrimaryDark" />
 
